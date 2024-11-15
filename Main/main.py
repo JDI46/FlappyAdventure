@@ -23,7 +23,7 @@ def run_game():
                 running = False
 
         
-        home_screen.fill("blue")
+        home_screen.fill("pink")
 
 
         pygame.display.flip()
