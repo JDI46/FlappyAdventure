@@ -3,7 +3,7 @@ import pygame
 
 def run_game():
     pygame.init()
-    home_screen = pygame.display.set_mode((1060, 600))
+    home_screen = pygame.display.set_mode((500, 750))
     run_game = True
 
     background = True
