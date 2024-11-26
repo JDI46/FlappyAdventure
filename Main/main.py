@@ -1,35 +1,21 @@
-import pygame
+try:
+    import sys
+    import random
+    import math
+    import os
+    import getopt
+    import pygame
+    from socket import *
+    from pygame.locals import *
+except ImportError as err:
+    print(f"couldn't load module, {err}")
+    sys.exit(2)
 
-
-def run_game():
+def start_game():
     pygame.init()
-    home_screen = pygame.display.set_mode((500, 750))
-    run_game = True
-
-    background = True
-    surface = True
-
-    font = True
-    text = True
-    get_text_pos = True
-
     
 
-
-
-    while run_game:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-
-        
-        home_screen.fill("pink")
-
-
-        pygame.display.flip()
-
-    
-    pygame.quit()
-
-
-run_game()
+def load_background():
+    pass
+def load_main_character():
+    pass
